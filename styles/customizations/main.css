@@ -190,8 +190,9 @@ input[type=text].frm-textbox {
 body {
   padding: 30px 15px 0;
   /*background-image: url('https://sdrive-storage.s3.amazonaws.com/rsd/567b11998cb129/42909191/bg-1.png');*/
-  background-image:url('../../Imagen/Fondo.png');
   background-position: center top;
+  background-color: #f37654;
+  
 }
 
 body > .row > [class*='coffee-span-'] {
@@ -242,6 +243,7 @@ body > .row.row-nav {
 body > .row.row-ribbon {
   max-width: 1220px;
   background-color: transparent;
+  
 }
 
 body > .row.row-header {
@@ -257,10 +259,25 @@ body > .row > [class*='coffee-span-'].col-feature {
   background-repeat: no-repeat;
 }
 
+/* PRUEBA IMAGEN SUAVIZADA*/
+
+body > .row > [class*='coffee-span-'].col-featureS {
+  min-height: 400px;
+  background-color: transparent;
+  /*background-image: url('https://sdrive-storage.s3.amazonaws.com/rsd/567b11987da4f0/47382049/banner-w2.png');*/
+  background-image:url('../../Imagen/centralSuave.png');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+/* PRUEBA IMAGEN SUAVIZADA*/
+
+
 body > .row > [class*='coffee-span-'].col-content {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: transparent;
+  
 }
 
 body > .row.row-footer {
@@ -390,14 +407,15 @@ span.glyph.contact-icon {
   }
 
   a.link-text.tl-top-navigation {
-    display: block;
-    float: none;
+    /*display: block;
+    float: none;*/
     padding-top: 10px;
     padding-right: 15px;
     padding-bottom: 10px;
-    max-width: none;
+   /* max-width: none;
     width: 100%;
-    text-shadow: none;
+    text-shadow: none;*/
+   
   }
 
   /* Layout Elements */
